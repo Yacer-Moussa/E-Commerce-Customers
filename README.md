@@ -105,17 +105,19 @@ E-Commerce-Customers/
    python -m venv .venv
    ```
 3. Activate the virtual environment:
+   ## for powershell Terminal
    ```powershell
    .venv\Scripts\Activate.ps1
    ```
+   ## for cmd Terminal
    ```cmd
    .venv\Scripts\activate.bat
    ```
-4. Install dependencies:
+5. Install dependencies:
    ```powershell
    python -m pip install -r requirements.txt
    ```
-5. Open the notebook or run the analysis script in VS Code.
+6. Open the notebook or run the analysis script in VS Code.
 
 ## 📊 Conclusion
 
