@@ -108,6 +108,9 @@ E-Commerce-Customers/
    ```powershell
    .venv\Scripts\Activate.ps1
    ```
+   ```cmd
+   .venv\Scripts\activate.bat
+   ```
 4. Install dependencies:
    ```powershell
    python -m pip install -r requirements.txt
