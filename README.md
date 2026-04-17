@@ -105,11 +105,11 @@ E-Commerce-Customers/
    python -m venv .venv
    ```
 3. Activate the virtual environment:
-   ## for powershell Terminal
+   **for powershell Terminal**
    ```powershell
    .venv\Scripts\Activate.ps1
    ```
-   ## for cmd Terminal
+   **for cmd Terminal**
    ```cmd
    .venv\Scripts\activate.bat
    ```
