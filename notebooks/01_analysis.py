@@ -1,16 +1,16 @@
 
 import seaborn as sns
 
-import sys
-from pathlib import Path
+# import sys
+# from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-sys.path.append(str(ROOT))
+# ROOT = Path(__file__).resolve().parents[1]
+# sys.path.append(str(ROOT))
 
-from src.data_loader import load_data
-from src.evaluate import evaluate_model
-from src.train import train_model
-from src.visualisation import plot_all
+from ecommerce_customers.data_loader import load_data
+from ecommerce_customers.evaluate import evaluate_model
+from ecommerce_customers.train import train_model
+from ecommerce_customers.visualisation import plot_all
 
 sns.set_style("whitegrid")
 sns.set_palette("coolwarm")
