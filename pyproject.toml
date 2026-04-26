@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ecommerce-customers"
+version = "0.1.0"
+description = "Analyze e-commerce customer data to compare the business impact of app and website usage."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "jupyter",
+    "pytest"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
