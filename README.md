@@ -117,6 +117,10 @@ E-Commerce-Customers/
    ```powershell
    python -m pip install -r requirements.txt
    ```
+6. Install as package:
+   ```powershell
+   python -m pip install -e .
+   ```
 6. Open the notebook or run the analysis script in VS Code.
 
 ## 📊 Conclusion
@@ -127,5 +131,5 @@ Even though it may seem obvious that the **website** should be the company’s m
 
 ## 👨‍💻 Author
 
-**Yasser Moussa**  
+**Yacer Moussa**  
 Aspiring Data Scientist | Python | Machine Learning | Data Analysis
